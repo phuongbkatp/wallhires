@@ -9,7 +9,7 @@ public class Config {
     public static final String NEW_ID = "4807737";
     public static final String collectionid= "collectionid";
     public static final String photoid= "photoid";
-    public static final String DatabasePATH= "gs://wallsplash-880c5.appspot.com";
+    public static final String DatabasePATH= "gs://myfirebaseproject-c9110.appspot.com";
     public static final String username= "username";
     public static final String searchKey= "searchKey";
 }

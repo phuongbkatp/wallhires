@@ -186,7 +186,7 @@ public class ProfileFragment extends Fragment {
 
                 User user = snapshot.getValue(User.class);
 
-                //assert user != null;
+                if (user == null) return;
                 edtFname.setText(user.getFullName());
                 edtUsername.setText(user.getUserName());
                 edtEmail.setText(user.getEmail());
